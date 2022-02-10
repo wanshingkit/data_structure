@@ -1,3 +1,4 @@
+<h3>Overview</h3>
 Using the provided battleship.jar game in the zip, the Java program in the zip/src generates a strategy to enhance the efficiency of hunting battleships. <br><br>
 •	In every round, A6.java is the main() to call out SampleBot object, which contains strategy and random Battleship coordinates created by BattlesShip object from battleship.jar.<br>
 •	SampleBot makes a scan on the map from top to down, left to right. When a ship hits, the neighbor coordinates in “down, right, left, up” will be prioritized in the queue. <br>
